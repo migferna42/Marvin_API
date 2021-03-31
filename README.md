@@ -12,4 +12,11 @@ export $(cat env.template | xargs)
 ```
 
 ## How to use (in progress)
-./api get user <campus_name>
+./api get users <campus_name>
+./api get user <user_id>|<user_login>
+./api get campus
+./api get events
+./api get event <event_id>
+
+
+
