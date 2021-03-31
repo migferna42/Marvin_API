@@ -11,5 +11,5 @@ CLIENT_SECRET=<YOUR_CLIENT_SECRET>
 export $(cat env.template | xargs)
 ```
 
-## How to use
+## How to use (in progress)
 ./api get user <campus_name>
