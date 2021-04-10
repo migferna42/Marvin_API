@@ -13,11 +13,11 @@ export $(cat env.template | xargs)
 
 ## How to use (in progress)
 ```sh
-./api get users <campus_name>
-./api get user <user_id>|<user_login>
-./api get campus
-./api get events
-./api get event <event_id>
+./marvin get users <campus_name>
+./marvin get user <user_id>|<user_login>
+./marvin get campus
+./marvin get events
+./marvin get event <event_id>
 ```
 
 
